@@ -1,0 +1,163 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: url(https://wallpaperaccess.com/full/265921.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;	
+	
+}
+
+.tup{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	top: 50px;
+	left: 40px;
+	z-index: 100;
+	
+	
+}
+		
+.greet{
+	position: fixed;
+	left: 220px;top: 20px;
+	height: 80px;
+	width: 1480px;
+}
+
+.xmas_text{
+	color: gold;
+	text-shadow: 2px 2px red;
+	font-size: 80px;
+}
+
+.img1{
+	height: 80px;
+	vertical-align: middle;
+}
+
+.img2{
+	height: 80px;
+	vertical-align: middle;
+}
+	
+.l{
+	position: absolute;
+}
+
+.r{
+	position: absolute;	
+	right: 0px;
+}
+
+.nav{
+	/*border: 2px solid gold;*/
+	width: 395px;
+	position: absolute;
+	left: 760px;
+	top: 134px;
+}
+
+.nav ul li{
+	display: inline-block;
+	color: white;
+	padding: 8.5px;
+	margin: 3px;	
+	border: 2px solid red;
+	background: green;
+	color: gold;
+	
+}
+
+.nav ul li:hover{
+	box-shadow: 2px 2px yellow;
+}
+
+.content{
+	border: 1px solid white;
+	position: relative	 ;
+	top: 160px;
+	left: 300px;
+	width: 1300px;
+	height: auto;
+}
+
+.content .left{
+	width: 70%;
+	height: auto;
+	float: left;
+	border: 1px solid red;
+	background-color: white;
+	opacity: 0.92;
+	
+}
+
+.content .left p{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-family: sans-serif;
+	line-height: 30px;
+	
+}
+
+.content .right{
+	width: 29.5%;
+	height: 100%;
+	float: right;
+	border: 1px solid red;
+	background-color: white;
+	opacity: 0.8;
+}
+
+.content .right p{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-family: sans-serif;
+	line-height: 30px;
+}
+
+.up{
+	position: fixed;
+	bottom: -40px;
+
+}
+
+.up:hover{
+	text-shadow: 2px 2px red;
+}
+
+.up img{
+	height: 200px;
+	width: 200px;
+}
+
+.up .aa{
+	position: relative;
+	color: black;
+	bottom: 180px;
+	left: 78px
+}
+
+.shadow{
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	 -moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+	font-size: 1500px;
+	position: absolute;
+	top: -1158.5px;
+	left: -48px;
+	z-index: 80;
+}
+
+@-webkit-keyframes glow {
+  from {
+     text-shadow: 0 0 10px #FF0000, 0 0 20px #FF0000, 0 0 30px 	#D00000, 0 0 40px 	#D00000, 0 0 50px 	#D00000, 0 0 80px 	#D00000;
+  }
+  to {
+    text-shadow: 0 0 20px #FF0000, 0 0 30px 	#B80000, 0 0 40px 	#B80000, 0 0 50px 	#B80000, 0 0 60px 	#B80000, 0 0 80px	#B80000, 0 0 90px 	#B80000;
+  }
